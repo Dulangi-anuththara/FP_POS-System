@@ -8,6 +8,7 @@ object Driver {
     val c:Int=scala.io.StdIn.readInt()
     val item1=new Item(a,b,c)
     item1.printDetails()
+    
   }
 
 }
