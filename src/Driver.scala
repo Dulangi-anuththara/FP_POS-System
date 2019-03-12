@@ -6,7 +6,7 @@ object Driver {
     val b:String=scala.io.StdIn.readLine()
     println("Enter an Item Price")
     val c:Int=scala.io.StdIn.readInt()
-    val item1=new Item(a,b,c)
+    val item1=new Item()
     item1.printDetails()
     
   }
