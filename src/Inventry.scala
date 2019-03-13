@@ -6,4 +6,13 @@ class Inventry {
         val getQuantity:Integer=scala.io.StdIn.readInt()
     }
 
+    def addItems(itemId:Int, itemName:String, itemPrice:Double, itemQuantity:Int):Unit ={
+        val item=new Item(itemId,itemName,itemPrice,itemQuantity)
+
+    }
+
+    def printDetails()={
+
+    }
+
 }

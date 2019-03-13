@@ -6,12 +6,13 @@ object Driver {
     val name:String=scala.io.StdIn.readLine()
     println("Enter the Item Price :")
     val price:Double=scala.io.StdIn.readDouble()
-    val item1=new Item()
     println("Enter the Item Quantity :")
     val quantity:Int=scala.io.StdIn.readInt()
 
+    val item1=new Inventry()
+
     item1.addItems(id,name,price,quantity)
-    item1.printDetails()
+    //item1.printDetails()
     
   }
 
