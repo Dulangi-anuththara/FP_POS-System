@@ -24,7 +24,7 @@ object Driver {
 
 
 
-        inventry.addItems(id,name,price,quantity)
+        //inventry.addItems(id,name,price,quantity)
 
         println("Item added successfully")
 
